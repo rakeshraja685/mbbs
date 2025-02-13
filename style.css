@@ -1,0 +1,248 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    background-color:rgb(59, 130, 246);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.fa-solid{
+    display: none;
+}
+.nav{
+    display: flex;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav li{
+    margin-top: 10px;
+    list-style: none;
+    margin-right: 20px;
+}
+.nav li:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    transition: font-size 0.5s;
+}
+.navbar{
+    width: 30%;
+    height: 500px;
+    background-color:white;
+    color:black;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    left: -100%;
+    transition: 1s;
+    position: fixed;
+}
+.navcont{
+ padding: 20px;
+} 
+.navcont a{
+    text-decoration: none;
+    color: black;
+}
+.navcont h2{
+    margin-bottom: 20px;
+}
+.navcont h2:hover{
+    text-decoration: underline;
+    font-size: 30px;
+    transition: font-size 0.5s;
+}
+.banner{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    height: 700px;
+    
+}
+.applay{
+    position: absolute;
+    padding: 20px;
+    color: white;
+    background-color:rgb(59, 130, 246); 
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    top:70%;
+    left: 75%;
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.applay:hover{
+    background-color: blue;
+    transition: 0.5s;
+}
+.applay a{
+    text-decoration: none;
+    color: white;
+
+}
+.why{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(243, 244, 246);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.heading{
+    font-size: 40px;
+    margin-top: 50px;
+    color: blueviolet;
+}
+.cont{
+    width: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+.key{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 50px;
+  flex-wrap: wrap;
+}
+.key h1{
+    font-size: 30px;
+    color: blueviolet;
+}
+.key ul{
+    list-style: none;
+    display: flex;
+    padding: 30px;
+}
+.key ul li{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.key li{
+    margin-top: 20px;
+    background-color:rgb(59, 130, 246);
+    padding: 30px;
+    border-radius: 25px;
+    color:white;
+}
+.key strong{
+    font-size: 30px;
+    color: black;
+}
+.key h4{
+    margin-top: 20px;
+    font-size: 23px;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-head{
+    font-size: 35px;
+    margin-top: 50px;
+    color: blueviolet;
+}
+.top-cont{
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.top-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pa{
+    margin-top: 20px;
+    padding: 20px;
+    background-color:green;
+    color: white;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form-head{
+    font-size: 30px;
+    color: blueviolet;
+    margin-top: 20px;
+}
+.applay-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 500px;
+    width: 400px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: rgb(243, 244, 246);
+    border-radius: 25px;
+}
+.applay-cont h1{
+    font-size: 30px;
+    color: blueviolet;
+    text-align: center;
+}
+.applynow{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.applay-cont form{
+    margin-top: 40px;
+}
+.sub{
+    margin-top: 20px;
+    padding: 10px;
+    background-color:rgb(59, 130, 246);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+}
+.footer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(59, 130, 246);
+    color: white;
+    padding: 20px;
+}
+@media screen and (max-width: 600px) {
+    .nav{
+        display: none;
+        }
+    .fa-solid{
+        display: block;
+        font-size: 30px;
+        margin-top: 5px;
+        margin-right: 20px;
+        color: white;
+    }
+    .key ul{
+        flex-wrap: wrap;
+    }
+    img{
+        width: 200px;
+        height: 200px;  
+    }
+    
+
+}
+@media screen and (max-width: 800px){
+    .key ul{
+        flex-wrap: wrap;
+    }
+} 

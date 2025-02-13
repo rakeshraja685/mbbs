@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <nav class="head">
+        <h1>University Insights</h1>
+        <i id="bars" class="fa-solid fa-bars"></i>
+        <ul class="nav">
+            <li><a href="#home"><h3>Home</h3></a></li>
+            <li><a href="#about"><h3>About</h3></a></li>
+            <li><a href="#bottem"><h3>Contact</h3></a></li>
+        </ul>
+    </nav>
+
+    <nav class="navbar">
+        <i class="fa-regular fa-circle-xmark close-icon" style="margin-left: 80%;"></i>
+        <div class="navcont">
+            <a href="#home"><h2>Home</h2></a>
+            <a href="#about"><h2>About</h2></a>
+            <a href="#bottem"><h2>Contact</h2></a>
+        </div>
+    </nav>
+    <section id="home" class="banner">
+        <button class="applay"><a href="#form"><h1>Apply Now</h1></a></button>
+        <img src="mbbs.jpg" alt="">
+        
+    </section>
+    <section id="about" class="why">
+        <h1 class="heading">Why Study MBBS Abroad?</h1>
+        <div class="cont">
+            <h2>Studying MBBS abroad offers a range of key benefits that attract students from around the world. International medical universities often provide high-quality education, advanced training facilities, and exposure to diverse clinical environments. Students gain access to globally recognized degrees, making them competitive in the global job market. Additionally, the cost of education in many countries is more affordable than in some Western nations, making it an attractive option for aspiring doctors. Studying abroad also fosters cultural diversity, broadening students' perspectives and enhancing their adaptability in the ever-changing healthcare landscape.</h2>
+        </div>
+        <div class="key">
+            <h1>Key Benefits of Studying MBBS Abroad</h1>
+            <ul>
+                <li><strong>Quality Education and Global Recognition:</strong><br>
+                    <h4>Studying MBBS abroad provides access to world-class medical education and degrees recognized globally, enhancing career opportunities in the international healthcare field.</h4></li>
+                <li><strong>Affordable Tuition Fees:</strong><br>
+                    <h4>Many countries offer medical education at a lower cost compared to institutions in Western countries, making it a more affordable option for students.</h4></li>
+                <li><strong>Cultural Exposure and Diverse Clinical Experience:</strong> <br>
+                    <h4>Studying abroad allows students to experience diverse healthcare systems and cultures, broadening their perspectives and improving adaptability in a globalized medical environment.</h4></li>
+            </ul>
+        </div>
+    </section>
+    <section id="Apply" class="top">
+        <h1 class="top-head">Top Countries to Study MBBS Abroad</h1>
+        <h1 class="top-cont">At <strong>University Insights</strong>, we offer expert guidance for students looking to pursue their MBBS degree in top global destinations. <br>  Here are some of the best countries for medical education:</h1>
+        <p class="pa" style="font-size: 20px;">Many students choose to study MBBS in countries like <strong>Russia, Uzbekistan, Kazakhstan, Philippines, Georgia, Kyrgyzstan, and Egypt</strong> due to their affordable tuition fees, globally recognized medical programs, and excellent infrastructure. These countries offer high-quality education, experienced faculty, and a multicultural environment, making them ideal destinations for aspiring medical professionals.</p>    
+        <nav class="form">
+            <h1 class="form-head" style="text-align: center;">Get Expert Guidance for Studying MBBS Abroad</h1><br>
+            <div class="applynow">
+                <section id="form" class="applay-cont">
+                    <h1>Apply Now</h1>
+                    <form action="">
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" required><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required><br>
+                        <label for="phone">Phone:</label><br>
+                        <input type="tel" id="phone" name="phone" required><br>
+                        <label for="country">Country:</label><br>
+                        <select name="" id="country" required>
+                            <option value="0">select</option>
+                            <option value="1">Russia</option>
+                            <option value="2">Uzbekistan</option>
+                            <option value="3"> Kazakhstan</option>
+                            <option value="4">Philippines</option>
+                            <option value="5">Georgia</option>
+                            <option value="6">Kyrgyzstan</option>
+                            <option value="7">Egypt</option>
+                        </select><br>
+                        <label for="message">Message:</label><br>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+                        <button class="sub" onclick="check()" type="submit">Submit</button>
+                    </form>
+                </section>
+            </div>
+        </nav>
+    </section>
+    <section id="bottem" class="bottem">
+        <footer  class="footer">
+            <center>
+                <h1>For Contact University Insights:</h1>
+                <br>
+                <h3>Phone:+91 98100 98100 | E-mail: Universityinsights@gmail.com</h3>
+                <br>
+                <p>&copy; 2025 by University Insights.</p>     
+            </center>
+        </footer>
+    </section>
+</body>
+</html>
