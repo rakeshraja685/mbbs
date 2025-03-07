@@ -235,8 +235,7 @@
         flex-wrap: wrap;
     }
     img{
-        width: 200px;
-        height: 200px;  
+        display:none;
     }
     
 
@@ -245,11 +244,6 @@
     .key ul{
         flex-wrap: wrap;
                                                               }
-    }
-.banner img{
-    margin-left:500px;
-    height:200px;
-    width:200px;
 }
-    
+   
 } 
